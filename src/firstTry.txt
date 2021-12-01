@@ -1,0 +1,434 @@
+ExeStack:
+(string varf;(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))))
+SymTable:
+Out:
+ExeStack:
+string varf
+(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))))
+SymTable:
+Out:
+ExeStack:
+(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))))
+SymTable:
+varf --> 
+Out:
+ExeStack:
+varf=test.in
+(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))
+SymTable:
+varf --> 
+Out:
+ExeStack:
+(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+openRead (varf)
+(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+int varc
+(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))
+SymTable:
+varf --> test.in
+varc --> 0
+Out:
+ExeStack:
+readFile (varc)
+(print(varc);(readFile (varc);(print(varc);closeRead (varf))))
+SymTable:
+varf --> test.in
+varc --> 0
+Out:
+ExeStack:
+(print(varc);(readFile (varc);(print(varc);closeRead (varf))))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+ExeStack:
+print(varc)
+(readFile (varc);(print(varc);closeRead (varf)))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+ExeStack:
+(readFile (varc);(print(varc);closeRead (varf)))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+10
+ExeStack:
+readFile (varc)
+(print(varc);closeRead (varf))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+ExeStack:
+(print(varc);closeRead (varf))
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+ExeStack:
+print(varc)
+closeRead (varf)
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+ExeStack:
+closeRead (varf)
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+15
+ExeStack:
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+ExeStack:
+(string varf;(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))))
+SymTable:
+Out:
+ExeStack:
+string varf
+(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))))
+SymTable:
+Out:
+ExeStack:
+(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))))
+SymTable:
+varf --> 
+Out:
+ExeStack:
+varf=test.in
+(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))
+SymTable:
+varf --> 
+Out:
+ExeStack:
+(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+openRead (varf)
+(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+int varc
+(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))
+SymTable:
+varf --> test.in
+varc --> 0
+Out:
+ExeStack:
+readFile (varc)
+(print(varc);(readFile (varc);(print(varc);closeRead (varf))))
+SymTable:
+varf --> test.in
+varc --> 0
+Out:
+ExeStack:
+(print(varc);(readFile (varc);(print(varc);closeRead (varf))))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+ExeStack:
+print(varc)
+(readFile (varc);(print(varc);closeRead (varf)))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+ExeStack:
+(readFile (varc);(print(varc);closeRead (varf)))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+10
+ExeStack:
+readFile (varc)
+(print(varc);closeRead (varf))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+ExeStack:
+(print(varc);closeRead (varf))
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+ExeStack:
+print(varc)
+closeRead (varf)
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+ExeStack:
+closeRead (varf)
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+15
+ExeStack:
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+ExeStack:
+(string varf;(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))))
+SymTable:
+Out:
+ExeStack:
+string varf
+(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))))
+SymTable:
+Out:
+ExeStack:
+(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))))
+SymTable:
+varf --> 
+Out:
+ExeStack:
+varf=test.in
+(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))
+SymTable:
+varf --> 
+Out:
+ExeStack:
+(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+openRead (varf)
+(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+int varc
+(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))
+SymTable:
+varf --> test.in
+varc --> 0
+Out:
+ExeStack:
+readFile (varc)
+(print(varc);(readFile (varc);(print(varc);closeRead (varf))))
+SymTable:
+varf --> test.in
+varc --> 0
+Out:
+ExeStack:
+(print(varc);(readFile (varc);(print(varc);closeRead (varf))))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+ExeStack:
+print(varc)
+(readFile (varc);(print(varc);closeRead (varf)))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+ExeStack:
+(readFile (varc);(print(varc);closeRead (varf)))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+10
+ExeStack:
+readFile (varc)
+(print(varc);closeRead (varf))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+ExeStack:
+(print(varc);closeRead (varf))
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+ExeStack:
+print(varc)
+closeRead (varf)
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+ExeStack:
+closeRead (varf)
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+15
+ExeStack:
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+ExeStack:
+(string varf;(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))))
+SymTable:
+Out:
+ExeStack:
+string varf
+(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))))
+SymTable:
+Out:
+ExeStack:
+(varf=test.in;(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))))
+SymTable:
+varf --> 
+Out:
+ExeStack:
+varf=test.in
+(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))
+SymTable:
+varf --> 
+Out:
+ExeStack:
+(openRead (varf);(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+openRead (varf)
+(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+(int varc;(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf))))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+int varc
+(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))
+SymTable:
+varf --> test.in
+Out:
+ExeStack:
+(readFile (varc);(print(varc);(readFile (varc);(print(varc);closeRead (varf)))))
+SymTable:
+varf --> test.in
+varc --> 0
+Out:
+ExeStack:
+readFile (varc)
+(print(varc);(readFile (varc);(print(varc);closeRead (varf))))
+SymTable:
+varf --> test.in
+varc --> 0
+Out:
+ExeStack:
+(print(varc);(readFile (varc);(print(varc);closeRead (varf))))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+ExeStack:
+print(varc)
+(readFile (varc);(print(varc);closeRead (varf)))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+ExeStack:
+(readFile (varc);(print(varc);closeRead (varf)))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+10
+ExeStack:
+readFile (varc)
+(print(varc);closeRead (varf))
+SymTable:
+varf --> test.in
+varc --> 10
+Out:
+10
+ExeStack:
+(print(varc);closeRead (varf))
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+10
+ExeStack:
+print(varc)
+closeRead (varf)
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+10
+ExeStack:
+closeRead (varf)
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+10
+15
+ExeStack:
+SymTable:
+varf --> test.in
+varc --> 15
+Out:
+10
+15
